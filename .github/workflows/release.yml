@@ -46,7 +46,7 @@ jobs:
           go-version: stable
 
       - name: Restore cache
-        uses: actions/cache/restore@v5
+        uses: actions/cache/restore@v6
         with:
           path: |
             ~/.cache/go-build
